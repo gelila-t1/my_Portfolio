@@ -1,0 +1,11 @@
+.Cards>img{
+    display: block;
+}
+.Cards{
+    display: block;
+    display: flex;
+    flex-direction: row;
+    column-gap: 6rem;
+    margin-top: 3rem;
+    margin-left: 5rem;
+}

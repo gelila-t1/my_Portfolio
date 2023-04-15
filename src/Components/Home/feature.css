@@ -1,0 +1,105 @@
+.feature-title{
+ font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+text-align: center;
+letter-spacing: -0.025em;
+font-feature-settings: 'liga' off;
+padding-top: 5rem;
+color: #FFFFFF;
+}
+.feature-text{
+ font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+font-feature-settings: 'liga' off;
+color: #FFFFFF;
+margin-top: 1.4rem;
+}
+.feature{
+    background-color: #0D1724;
+}
+.wrap-feature{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 4rem;
+    margin-left: 8rem;
+    margin-right: 6rem;
+    margin-top: 3rem;
+}
+.feature-section{
+    margin-bottom: 3rem;
+}
+.feature-icon{
+   padding-left: 9rem;
+}
+.title{
+ font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 40px;
+text-align: center;
+font-feature-settings: 'liga' off;
+color: #FFFFFF;
+}
+.text{
+ font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+font-feature-settings: 'liga' off;
+color: #FFFFFF;
+}
+.icons-feature{
+text-align: center;
+}
+@media(max-width:768px){
+    .wrap-feature{
+        grid-template-columns: auto auto;
+row-gap: 2rem;
+margin-left: 1rem;
+margin-right: 1.5rem;
+margin-top: 3rem;
+column-gap: 1rem;
+    }
+    .title {
+     font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+    }
+    .feature-section{
+        margin-bottom: 1rem;
+    }
+    .feature-title {
+        font-size: 41px;
+        padding-top: 3rem;
+      }
+      .wrap-sections {
+        display: flex;
+        flex-direction: row;
+        row-gap: 3rem;
+        align-items: center;
+      }
+      .testimonial-sectionOne {
+        width: 300px;
+      
+      }
+      .testimonial-sectionTwo {
+        width: 300px;
+     
+        margin-bottom: 6rem; 
+    }
+    .background p {
+        padding-left: 2rem;
+      }
+      
+}

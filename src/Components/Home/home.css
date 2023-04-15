@@ -1,0 +1,225 @@
+  .profile-details {
+    margin-top: 5rem; 
+  }
+  .about-id{
+    padding-top: 1rem;
+  }
+  .profile-intro{
+    font-family: Raleway;
+    font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+    color: white;
+  }
+  .border{
+  border: 1px solid gray;
+  }
+  .social-icons{
+    font-size: 1.3rem;
+    color: gray;
+  }
+  .colz-items{
+    column-gap: 2rem;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 1.5rem;
+  }
+  .home-background{
+    display: flex;
+    flex-direction: row;
+    column-gap: 7rem;
+    padding-left: 5rem;
+  padding-right: 3rem;
+  margin-top: 1rem;
+  padding-bottom: 4rem;
+  }
+  .circle-div{
+	  width: 5rem;
+	  height: 5rem;
+	  border-radius: 50%;
+	  background: #1b7ced;
+position: relative;
+top: 17rem;
+left: 16rem;
+z-index: 3;
+  }
+  .circle-divOne{
+	  width: 3rem;
+	  height: 3rem;
+	  border-radius: 50%;
+	  background: #1b7ced;
+	  position: relative;
+      left: 7rem;
+      z-index: -1;
+  }
+  .circle-divTwo{
+	  width: 3rem;
+	  height: 3rem;
+	  border-radius: 50%;
+	  background: rgb(129, 231, 175);
+    position: relative;
+    left: 2rem;
+    z-index: 1;
+    top: 7rem;
+  }
+  .one{
+    margin-top: 6rem;
+  }
+  .web-icon{
+    width: 3rem;
+    height: 3rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+  .services-section{
+     display: grid;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+  }
+  .highlighted-text{
+    color: #1b7ced;
+  }
+  .profile-name{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 70px;
+    color: white;
+    font-size: 42px;
+  }
+  .type{
+    font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+margin-top: -1rem;
+color: whitesmoke;
+  }
+  .image{
+    display: flex;
+    flex-direction: row;
+  
+  }
+  .service{
+    background: #fff;
+height: 220px;
+width: 200px;
+  }
+  .services-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7rem;
+  }
+  .service-right{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .service-title{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 1rem;
+    padding-left: 1rem;
+  }
+.myhome-imagee{
+  transform: rotate(-51deg);
+  width: 72%;
+  padding-left: 6rem;
+  padding-top: 1rem;
+}
+.image-back{
+  margin-top: 1rem;
+  background: #28343f;
+  border-radius: 30px;
+  width: 26rem;
+  height: 19rem;
+  transform: rotate(49deg);
+  overflow: hidden;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+@media(max-width:767px){
+  .type {
+    font-size: 25px;
+    text-align: center;
+  }
+  .profile-name {
+    font-size: 37px;
+    text-align: center;
+  }
+  .home-background{
+    flex-direction: column;
+    row-gap: 2rem;
+    padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-top: -4rem;
+  padding-bottom: 0rem;
+  }
+  .image-back {
+    margin-top: 1rem;
+    width: 14rem;
+    height: 15rem;
+    margin-left: 4.4rem;
+  }
+  .myhome-imagee {
+    width: 83%;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+  .circle-div {
+    width: 4rem;
+    height: 4rem;
+    top: 13rem;
+    left: 14.5rem;
+}
+.circle-divOne {
+  width: 2rem;
+  height: 2rem;
+  left: 5.2rem;
+  top: -2rem;
+}
+  .profile-details {
+    margin-top: 1rem;
+  }
+  .center-button {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+  .colz-items,.center-button {
+    justify-content: center;
+    align-content: center;
+  }
+  .colz-items {
+    row-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -55.5rem;
+    margin-left: -0.6rem;
+}
+
+.circle-divTwo {
+  left: 4rem;
+  top: 5rem;
+}
+.social-icons {
+  font-size: 15px;
+  color: gray;
+}
+}
+@media(min-width: 1600px){
+  .home-background{
+    column-gap: 10rem;
+    padding-left: 12rem;
+    padding-right: 10rem;
+  }
+}

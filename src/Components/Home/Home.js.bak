@@ -1,0 +1,136 @@
+import React from 'react'
+import imageOne from '../../assets/home-imageOne.png'
+import imageHome from '../../assets/home-image.png'
+import './home.css'
+import Typical from "react-typical"
+import { Form } from 'react-bootstrap'
+import iconOne from '../../assets/iconOne.png'
+import iconTwo from '../../assets/iconTwo.png'
+import iconThree from '../../assets/iconThree.png'
+import Nav from '../Nav/Nav'
+function Home() {
+  return (
+    
+    <div className='home-page'>
+     
+        {/* <div className='home-background'    style={{
+        backgroundImage: `url(${imageOne})`,
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
+      }}
+      >
+           <Nav/>
+           <div className="profile-details">
+           <div className="colz">
+              <div className="colz-items">
+              <a href="#"> <i className="fa fa-facebook-square"></i></a>
+              <a href="#"> <i className="fa fa-instagram"></i></a>
+              <a href="#"> <i className="fa fa-github-square"></i></a>
+              </div>
+           </div>
+           <div className="profile-name">
+            <span className="primary-text"> {" "} 
+            Hello I'm <span className="highlighted-text">Gelila</span>
+            </span>
+           </div>
+           <div className="profile-role">
+            <span className="primary-text"> {" "} 
+            <div className='type'>
+                {" "}
+                <Typical
+                loop={Infinity}
+                steps={["Ethusiastic developer", 1000,
+                "MERN Stack Developer", 1000, 
+                "React Native ", 1000,
+                "Flutter", 1000,]}
+                />
+            </div>
+            <span className="profile-intro">
+            I'm a web developer with a passion for designing and developing beautiful, I have a track record of building unique user experiences that look great and are easy to use. My specialized areas of expertise include specialties, 
+            and I strive to remain on the cutting edge of new technologies to bring the best development solutions to my clients. 
+            I'm always looking for new projects and wonderful people so please don't hesitate to reach out with any ideas you might have! 
+            </span>
+            </span>
+            </div>
+            <div>
+            <button className="btn hireMe-btn">{""} Hire me{" "}</button>
+            <a href="report.pdf" download='report.pdf'> 
+                <button className="btn resume-btn">Get Resume</button></a>
+            </div>
+                </div>
+      <div>
+      <div className="service">
+        <img src={iconOne} className="web-icon"/>
+           <div className="service-title">Front end development </div>
+          </div>
+          <div className="service">
+        <img src={iconTwo} className="web-icon"/>
+           <div className="service-title">Front end development </div>
+          </div>
+          <div className="service">
+        <img src={iconThree} className="web-icon"/>
+           <div className="service-title">Front end development </div>
+          </div>
+      </div>
+           
+            </div> */}
+      
+            <div className='home-background'>
+         <div>
+		 <div className="circle-divOne"></div>
+            <div className="image-back">
+<img src={imageHome} className="myhome-imagee"/>
+            </div>
+			<div className="circle-div"></div>
+           </div>
+        <div className='profile-details'>
+        <div className="profile-name">
+         <span className="primary-text"> {" "} 
+            Hello I'm <span className="highlighted-text">Gelila</span>
+            </span>
+         </div>
+         <div className='type'>
+                {" "}
+                <Typical
+                loop={Infinity}
+                steps={["Ethusiastic developer", 1000,
+                "MERN Stack Developer", 1000, 
+                "React Native ", 1000,
+                "Flutter", 1000,]}
+                />
+            </div>
+            <span className="profile-intro">
+            I'm a web developer with a passion for designing and developing beautiful, I have a track record of building unique user experiences that look great and are easy to use. My specialized areas of expertise include specialties, 
+            and I strive to remain on the cutting edge of new technologies to bring the best development solutions to my clients. 
+            I'm always looking for new projects and wonderful people so please don't hesitate to reach out with any ideas you might have! 
+            </span>
+        </div>
+        {/* <div className="services-div">
+      <div className='flex'>
+      <div className="service one">
+        <img src={iconOne} className="web-icon"/>
+           <div className="service-title">Front end development </div>
+          </div>
+          <div className='service-right'>
+          <div className="service">
+        <img src={iconTwo} className="web-icon"/>
+           <div className="service-title">Front end development </div>
+          </div>
+          <div className="service">
+        <img src={iconThree} className="web-icon"/>
+           <div className="service-title">Front end development </div>
+          </div>
+          </div>
+      </div>
+        
+      </div> */}
+          
+      </div>
+
+    
+    </div>
+  )
+}
+
+export default Home

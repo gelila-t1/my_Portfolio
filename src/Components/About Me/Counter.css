@@ -1,0 +1,51 @@
+.counter-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.counter-number{
+    padding-left: 2.5rem;
+    font-weight: 600;
+    font-size: 39px;
+    color: #1b7ced;
+}
+.counter-numberPro{
+    padding-left: 4rem;
+    font-weight: 600;
+    font-size: 39px;
+    color: #1b7ced;
+}
+.counter-numberSkill{
+    padding-left: 2rem;
+    font-weight: 600;
+    font-size: 39px;
+    color: #1b7ced;
+}
+.counter-text{
+    font-size: 21px;
+    margin-top: -1rem;
+}
+@media(max-width: 768px){
+    .counter-container{
+        column-gap: 1rem;
+    }
+    .counter-numberPro{
+        padding-left: 2.8rem;
+        font-size: 40px;
+    }
+    .counter-numberSkill{
+        padding-left: 1rem;
+        font-size: 40px;
+}
+.counter-number{
+    padding-left: 1.5rem;
+    font-size: 40px;
+}
+.counter-text {
+    font-size: 15px;
+}
+}

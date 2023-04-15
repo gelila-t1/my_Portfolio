@@ -1,0 +1,154 @@
+.hireMe-text{
+    width: 40rem;
+    height: 20rem;
+    background: #3a4957;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.hire-me{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: -15rem;
+}
+.content-hireMe{
+  font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px;
+    color: white;
+    text-align: center; 
+    margin-top: 2rem;
+    margin-left:9rem;
+    margin-right: 9rem;
+}
+.me-image{
+    width: 100%;
+    margin-top: -5rem;
+}
+.hire-mediv{
+    width: 80%;
+}
+.new-hireMe{
+    margin-top: 3rem;
+                                                                        font-family: 'Gabriela', sans-serif;
+                                                
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px;
+    color: white;
+    padding-left: 3rem; 
+}
+.hire-meTitle{
+    margin-top: 8rem;
+font-family: 'Gabriela', sans-serif;
+                                                
+font-size: 33px;
+font-style: normal;
+font-weight: 700;
+line-height: 34px;
+color: white;
+text-align: center;
+}
+.wrap-hireMe{
+    display: flex;
+    flex-direction: row;
+}
+.design{
+    position: relative;
+top: -12rem;
+left: -10rem;
+}
+.fullstack{
+    position: relative;
+top: -25rem;
+left: 38rem;
+}
+.mobile-app{
+    position: relative;
+    top: -18rem;
+    left: 38rem;
+}
+.serve{
+    width: 10rem;
+    height: 3rem;
+    background-color:rgb(129, 231, 175);;
+    margin-bottom: 1rem;
+    font-family: Raleway;                                             
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: white;
+    border-radius: 2px;
+    padding: 1rem;
+    text-align: center;
+}
+@media(max-width:767px){
+    .content-hireMe{
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+      .hireMe-text {
+        width: 18rem;
+        height: 14rem;
+        background: #3a4957;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+      }
+      .hire-mediv {
+        width: 100%;
+      }
+      .new-hireMe {
+        margin-top: 1rem;
+        font-family: 'Gabriela', sans-serif;                                                
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 23px;
+        color: white;
+        padding-left: 1rem;
+      }
+      .design {
+        transform: rotate(-21deg);
+        top: -18rem;
+        left: -2rem;
+     
+      }
+      .me-image {
+        width: 100%;
+        margin-top: -4rem;
+        margin-left: 2rem;
+      }
+      .serve {
+        width: 8rem;
+        height: 1.8rem;
+        font-size: 14px;
+      }
+      .hire-me {
+        margin-bottom: -4rem;
+        margin-top: 8rem;
+      }
+      .fullstack {
+        transform: rotate(21deg);
+        top: -22rem;
+        left: 10rem;
+      }
+      .mobile-app {
+        position: relative;
+        top: -2rem;
+        left: 4rem;
+      }
+}
+@media(min-width: 1600px){
+  .content-hireMe {
+    margin-left: 14rem;
+    margin-right: 14rem;
+}
+}

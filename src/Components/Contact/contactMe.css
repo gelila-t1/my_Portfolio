@@ -1,0 +1,130 @@
+.contactMe{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+.inputs {
+    border: none;
+    background: #3c4a5b;
+    width: 22rem;
+    margin-left: 2rem;
+    opacity: .5;
+    height: 1.8rem;
+  }
+  .message-input {
+    border: none;
+    background: #3c4a5b;
+    width: 22rem;
+    margin-left: 2rem;
+    opacity: .5;
+    height: 5rem;
+  }
+.section-two h3{
+    margin-top: 2rem;
+}
+.contactMe-title{
+    font-family: 'Gabriela', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 6rem;
+    color: white;
+}
+.decor{
+    text-decoration: none;
+    color: rgb(226, 219, 219);
+}
+.contact-title{
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    color: gray;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.btn-send{
+    border: none;
+    background-color: var(    --light-blue );
+    margin-top: 1.5rem;
+    /* border-radius: 12px; */
+}
+.con-icon{
+    padding-right: 1rem;
+}
+.section-one{
+    margin-top: 0rem;
+}
+.send{
+    color: white;
+    padding: 10px 67px 15px 58px;
+    font-size: 20px;
+    width: 2rem;
+    background: rgb(129, 231, 175);
+    margin-left: 2rem;
+}
+::placeholder{
+    color: gray;
+    font-family: Raleway;
+    font-size: 15px;
+    font-style: normal;
+    padding-left: 1rem;
+}
+.contact-section {
+  background: radial-gradient(107.57% 210.75% at 0.9% 2.98%, rgba(136, 135, 135, 0.4) 30%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0px 12px 16px -4px rgb(1 1 2 / 8%), 0px 4px 6px -2px rgb(0 0 0 / 3%);
+  width: 27rem;
+} 
+.contact-titleDesc{
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+}
+.contact-desc {
+    font-family: Raleway;
+    font-size: 17px;
+    font-style: normal;
+    margin-top: 2rem;
+  }
+.get {
+    color: rgb(129, 231, 175);
+    font-family: Raleway;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 3rem;
+}
+@media(max-width: 767px){
+    .contactMe {
+        flex-direction: column;
+        row-gap: 3rem;
+      }
+    .inputs {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background: #3c4a5b;
+        width: 18rem;
+        margin-left: 2rem;
+        opacity: .5;
+        height: 1.5rem;
+      }
+      .message-input{
+        width: 18rem;
+      }
+      .contact-section {
+        width: 21rem;
+      }
+}
+@media(min-width:1600px){
+  .contactMe {
+    column-gap: 29rem;
+}
+}

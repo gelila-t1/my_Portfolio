@@ -1,0 +1,123 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    column-gap: 6rem;
+    margin-top: 4rem;
+    margin-left: 5rem;
+}
+.projects-title{
+  font-family: 'Gabriela', sans-serif;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 800;
+  padding-left: 1rem;
+  color: white;
+  text-align: center;
+  margin-top: 5rem;
+}
+.avatar{
+  width: 91%;
+  padding: 1rem;
+  height: 9rem;
+}
+.card-section{
+  background: radial-gradient(107.57% 210.75% at 0.9% 2.98%, rgba(136, 135, 135, 0.4) 30%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0px 12px 16px -4px rgb(1 1 2 / 8%), 0px 4px 6px -2px rgb(0 0 0 / 3%);
+  width: 20rem;
+}
+.card-section:hover{
+  background: #142638;
+}
+.card-link{
+  background: rgb(117, 117, 117);
+  width: 7.2rem;
+  border: none;
+  height: 2.6rem;
+  border-radius: 12px;
+  margin-left: 1rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+}
+.btn-live{
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 0.6rem;
+}
+.title {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  padding-left: 1rem;
+  color: rgb(128, 122, 122);
+  font-family: 'Gabriela', sans-serif;
+}
+  .desc {
+    font-family: Raleway;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+  }
+
+  .priview{
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 13px;
+    color: white;
+    font-style: normal;
+    font-weight: 800;
+    color: white;
+    padding: 10px;
+  }
+  .icon{
+margin-left: 1rem;
+  }
+  .swiper-slide{
+  margin-bottom: 3rem;
+  }
+.swiper-pagination-bullet{
+  background: rgb(129, 231, 175);
+  width: 3rem;
+  height: 4px;
+  border-radius: 1px;
+  }
+  .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap,5px);
+  }
+  
+  .myProjects{
+    margin-top: 5rem;
+    margin-left: 4rem;
+  }
+  .highlight{
+    color: rgb(129, 231, 175);
+  }
+  @media(max-width:767px){
+    .myProjects {
+      margin-top: 3rem;
+      margin-left: 1.5rem;
+    }
+    .card-section {
+      width: 17.6rem;
+    }
+    .swiper-pagination-bullet {
+      background: rgb(129, 231, 175);
+      width: 2rem;
+      height: 4px;
+      border-radius: 1px;
+    }
+    .projects-title {
+      font-size: 29px;
+      padding-left: 0rem;
+    }
+  }
+  @media(min-width: 1600px){
+    .card-section {
+      width: 24rem;
+  }
+  .myProjects {
+    margin-left: 12rem;
+}
+  }

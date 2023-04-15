@@ -1,0 +1,123 @@
+.home-section {
+    height: 28rem;
+  }
+  .profile-details {
+    /* display: grid;
+    align-items: center;
+    justify-content: center;*/
+    color:white;
+    margin-top: 4rem; 
+  }
+  .home-background{
+    display: flex;
+    flex-direction: row;
+    column-gap: 7rem;
+    padding-left: 5rem;
+	margin-top: 5rem;
+  }
+  .circle-div{
+	  width: 5rem;
+	  height: 5rem;
+	  border-radius: 50%;
+	  background: orange;
+position: relative;
+top: 17rem;
+left: 16rem;
+z-index: 3;
+  }
+  .circle-divOne{
+	  width: 3rem;
+	  height: 3rem;
+	  border-radius: 50%;
+	  background: orange;
+	  position: relative;
+left: 7rem;
+z-index: -1;
+  }
+  .one{
+    margin-top: 6rem;
+  }
+  .web-icon{
+    width: 3rem;
+    height: 3rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+  .services-section{
+     display: grid;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+  }
+  .highlighted-text{
+    color: green;
+  }
+  .profile-name{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 37px;
+  }
+  .type{
+    font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+margin-top: -1rem;
+  }
+  .image{
+    display: flex;
+    flex-direction: row;
+  
+  }
+  .service{
+    background: #fff;
+height: 220px;
+width: 200px;
+  }
+  .services-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7rem;
+  }
+  .service-right{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .service-title{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 1rem;
+    padding-left: 1rem;
+  }
+@media(max-width:768px){
+  .home-background {
+    height: 75rem;
+    flex-direction: column;
+    row-gap: 3rem;
+    padding-left: 1rem;
+}
+}
+.myhome-imagee{
+  transform: rotate(-51deg);
+  width: 72%;
+  padding-left: 6rem;
+  padding-top: 1rem;
+}
+.image-back{
+  margin-top: 5rem;
+  background: #28343f;
+  border-radius: 30px;
+  width: 26rem;
+  height: 19rem;
+  transform: rotate(49deg);
+  overflow: hidden;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}

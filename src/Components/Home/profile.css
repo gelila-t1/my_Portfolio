@@ -1,0 +1,87 @@
+.profile{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 30%;
+    min-height: fit-content;
+    
+}
+.hireMe-btn {
+    color: var(--white);
+    border: 2px solid linen;
+    font-size: 12px;
+    background-color: #1f2235;
+  }
+  .resume-btn {
+    color: var(--white);
+    font-size: 20px;
+    background-color: #10c71f;
+    margin: 0 0 0 25px;
+  }
+  .btn:active {
+    transform: translateY(2px);
+  }
+  .btn {
+    border-radius: 50px;
+    padding: 14px 0;
+    width: 160px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: "Poppins SemiBold";
+  }
+  .profile-parent{
+    color: aliceblue;
+  }
+  .photo-background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px var(--white);
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+  }
+  .photo{
+    width:92%;
+    height: 92%;
+    background-image: url('../assets/gigi.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: centers;
+  }
+  .photo:hover{
+    transform: scale(1.07);
+    transition: 1s ease-out; 
+  }
+  @media(min-width: 416px) and (max-width:767px){
+    .photo-background{
+        height: 280px;
+        width: 280px;
+        margin: 0 0px 0 0px;
+    }
+    .profile-role.primary-text.h1{
+        font-size: 11px;
+    }
+}
+    @media(min-width:768px) and (max-width:992px){
+        .photo-background{
+            height: 280px;
+            width: 280px;
+            margin: 0 0px 0 25px;
+        }
+  }
+  @media(max-width:415px){
+    .photo-background{
+        margin: 0 !important;
+        height: 320px;
+        width: 320px;
+    }
+    .profile-parent{
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0;
+    }
+
+   }

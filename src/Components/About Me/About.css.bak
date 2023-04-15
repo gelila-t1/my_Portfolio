@@ -1,0 +1,182 @@
+.about{
+    margin-top: 2rem;
+}
+.AboutUs-section{
+    display: flex;
+    flex-direction: row;
+    column-gap: 8rem;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    margin-right: 10rem;    
+}
+body{
+    background: #000B18;
+}
+.back-to-top{
+    background: gray;
+    border-radius: 5px;
+    position: fixed;
+    right: 5rem;
+    bottom: 2rem;
+}
+.top-icon{
+    font-size: 1.6rem;
+    color: white;
+    padding: 0.5rem 0.7rem;
+}
+.my-image{
+    width: 100%;
+}
+.back-div{
+    width: 25rem;
+    height: 30rem;
+    background: #28343f;
+    border-radius: 30px;
+    width: 23rem;
+    height: 30rem;
+    transform: rotate(7deg);
+}
+.image-background{
+    background: #1b7ced;
+    border-radius: 30px;
+    width: 23rem;
+    height: 30rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-11deg);
+}
+.imageOne{
+    width: 77%;
+    height: 27rem;
+}
+.imageTwo{
+    width: 77%;
+    height: 24rem;
+
+}
+.text{
+    width: 50%;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.image{
+    width: 50%;
+}
+.aboutUs-text{
+    font-family: Raleway;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: 34px;
+color: white;
+}
+.about-image{
+    width: 17rem;
+}
+.about-imageTwo {
+    width: 17rem;
+    margin-left: -5rem;
+    margin-top: -5rem;
+    z-index: 2;
+  }
+.view-certificates{
+    background-color: #1b7ced;
+    border-radius: 34px;
+    border: none;
+    width: 10rem;
+    height: 3rem;
+    margin-top: 1.5rem;
+}
+.btn-view{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 0.9rem;
+}
+.education-title{
+    color: rgb(129, 231, 175);
+    font-family: Raleway;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 34px;
+}
+.info{
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    color: white;
+}
+.date{
+    font-family: Raleway;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    color: rgb(156, 156, 156);
+}
+.level {
+    width: 1rem;
+    height: 16rem;
+    margin-top: 1.6rem;
+}
+.heading{
+    color:white;
+    font-family: Raleway;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 34px;
+    text-align: center;
+}
+.download-btn{
+  background: rgb(129, 231, 175);
+  border-radius: 34px;
+  border: none;
+  width: 10rem;
+  height: 3rem;
+  margin-top: 0.5rem;
+}
+  .flex-row{
+    display: flex;
+    flex-direction: row;
+    column-gap: 3rem;
+  }
+.edu-icon{
+    margin-right: 1rem;
+}
+@media(max-width: 768px){
+    .AboutUs-section{
+        flex-direction: column-reverse;
+           row-gap: 2rem;
+            margin-left: 1.5rem;
+            margin-top: 2rem;
+            margin-right: 1rem;  
+    }
+    .text{
+        width: 100%;
+    }
+    .about {
+        margin-top: 5rem;
+      }
+      .info {
+        line-height: 22px;
+      }
+      .back-to-top{
+       right: 3rem;
+       bottom: 14rem;
+    }
+}
+@media(min-width: 1600px){
+    .AboutUs-section {
+        column-gap: 14rem;
+        margin-left: 15rem;
+        margin-right: 10rem;
+    }
+}

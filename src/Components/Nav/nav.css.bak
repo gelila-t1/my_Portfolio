@@ -1,0 +1,197 @@
+body{
+  font-feature-settings: normal;
+}
+.navv-bar {
+  display: flex;
+  flex-direction: row;
+  column-gap: 26rem;
+  height: 4rem;
+  /* justify-content: space-between; */
+  padding-right: 5rem;
+  /* position: fixed; */
+}
+.logo-nav{
+  width: 100%;
+ 
+}
+.ss-logo {
+  height: 9rem;
+}
+.logos {
+  display: block;
+  margin-left: 6rem;
+  margin-top: 1rem;
+  color: rgb(226, 219, 219);
+  font-size: 40px;
+  text-decoration: none;
+  font-family: 'Gabriela', sans-serif;
+}
+.login-button {
+  background: linear-gradient(
+    74.35deg,
+    #682696 8.29%,
+    #6a2694 8.54%,
+    #94256d 15.21%,
+    #b7244d 22%,
+    #d22333 28.87%,
+    #e52221 35.81%,
+    #f02217 42.91%,
+    #f42213 50.35%,
+    #f8b04a 92.41%
+  );
+  border-radius: 6px;
+  height: 3rem;
+  width: 7rem;
+}
+.navigations {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menus {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  z-index: 10;
+  transition: 0.5s;
+  background: rgb(226, 219, 219);
+  border-radius: 50px;
+  height: 5rem;
+  margin-top: -1rem;
+  width: 36rem;
+}
+.menus li {
+  list-style-type: none;
+}
+.menus li a {
+  margin-bottom: -1rem;
+  text-decoration: none;
+  display: block;
+  padding: 46px 24px;
+  transition: 0.3s;
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color:black;
+}
+
+.hamburgers {
+  position: relative;
+  width: 30px;
+  height: 4px;
+  background: white;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 2;
+  transition: 0.3s;
+}
+.hamburgers::before,
+.hamburgers::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  right: 0;
+  background: white;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.hamburgers:before {
+  top: -10px;
+  width: 20px;
+}
+
+.hamburgers:after {
+  top: 10px;
+  width: 30px;
+  z-index: 20;
+}
+.toggle-menus {
+  position: absolute;
+  width: 34px;
+height: 4rem;
+z-index: 3;
+cursor: pointer;
+opacity: 0;
+}
+.nav-appstore{
+  margin-left: 10rem;
+}
+.hamburgers,
+.toggle-menus {
+  display: none;
+}
+.navigations input:checked ~ .hamburgers {
+  background: transparent;
+      z-index: 20;
+}
+.navigations input:checked ~ .hamburgers:before {
+  top: 0;
+  transform: rotate(-45deg);
+  width: 30px;
+}
+.navigations input:checked ~ .hamburgers:after {
+  top: 0;
+  transform: rotate(45deg);
+  width: 30px;
+}
+.navigations input:checked ~ .menus {
+  left: 0px;
+  box-shadow: -20px 0 40-x rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 992px) {
+  .nab-bar {
+    column-gap: 6rem;
+  }
+  .hamburgers,
+  .toggle-menus {
+       display: block;
+    position: absolute;
+    right: 3rem;
+    z-index: 12;
+  }
+  .logos {
+    display: block;
+    margin-left: 1rem;
+  }
+  .headers {
+    padding: 10px 20px;
+  }
+  .menus {
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: -16px;
+    right: -341px;
+    background: black;
+    width: 300px;
+    height: 100%;
+    padding-top: 83px;
+    opacity: 0.87;
+  }
+  .menus li {
+    width: 100%;
+  }
+  .menus li a,
+  .menus li a:hover {
+    padding: 30px;
+    font-size: 24px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+    color: white;
+    margin-left: -2rem;
+  }
+  .login-button {
+    margin-left: 5rem;
+  }
+}
+@media (min-width: 1600px) {
+  .navv-bar {
+    column-gap: 31rem;
+  }
+  .nav-appstore {
+    margin-left: 22rem;
+}
+}
