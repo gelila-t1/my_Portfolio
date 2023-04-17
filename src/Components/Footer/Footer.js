@@ -7,7 +7,7 @@ import { FaLinkedinIn } from 'react-icons/fa';
 function Footer() {
   return (
     <div>
-        <div className="footer-text">lorem ipsum</div>
+       
          <div className='footer-links'>
             <div> <a href="#Home" className='link-footer'>Home</a></div>
            <div><a href="#About" className='link-footer'>About</a></div>

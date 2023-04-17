@@ -109,6 +109,9 @@ color: #5C5C5C;
       width: 1.5rem;
       height: 5.5px;
     }
+    .testimony-name {
+      font-size: 14px;
+  }
   }
   @media(min-width:1600px){
     .testimonial {

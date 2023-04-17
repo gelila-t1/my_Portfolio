@@ -40,8 +40,8 @@ export default function Testimonial() {
         <SwiperSlide data-aos="fade-up">
             <div className="testimonies" >
                 <img src={testSymbol}/>
-                <div className="testimony-text">I highly recommend Gelila for any project. Their commitment to excellence, passion for innovation, 
-                and dedication to delivering high-quality work make them a valuable asset to any development team.</div>
+                <div className="testimony-text">I highly recommend Gelila for any project. Her commitment to excellence, passion for innovation, 
+                and dedication to delivering high-quality work make her a valuable asset to any development team.</div>
                     <div className="flex">
                     <div><img src={dummyAvatar} className="dummyAvatar"/>
                     </div><div className="testimony-name">Isaac Negatu<br/><span className="testimony-pos">Bitapps Technologies</span></div> 
@@ -64,27 +64,27 @@ export default function Testimonial() {
                 she can create seamless user experiences that exceed clients' expectations. </div>
                     <div className="flex">
                     <div><img src={dummyAvatar} className="dummyAvatar"/>
+                    </div><div className="testimony-name">Adera Delivery<br/><span className="testimony-pos">CEO</span></div> 
+                </div></div>
+        </SwiperSlide>
+        <SwiperSlide data-aos="fade-up">
+        <div className="testimonies">
+                <img src={testSymbol}/>
+                <div className="testimony-text"> Her expertise has brought our ideas to life. We were very pleased with her
+                 ability to take our vision and create an attractive, functional, and user-friendly website that meets all of our needs.</div>
+                    <div className="flex">
+                    <div><img src={dummyAvatar} className="dummyAvatar"/>
                     </div><div className="testimony-name">Special Security Service<br/><span className="testimony-pos">CEO</span></div> 
                 </div></div>
         </SwiperSlide>
         <SwiperSlide data-aos="fade-up">
         <div className="testimonies">
                 <img src={testSymbol}/>
-                <div className="testimony-text">Lorem ipsum dolor sit amet consectetur. Montes a amet nunc ligula etiam nec placerat. 
-                    Leo eu tellus risus amet at et sit sapien. Risus augue tristique in in id nec libero. Sem nulla.</div>
+                <div className="testimony-text"> 
+                 I appreciate the extra effort she put into making sure our website is mobile-responsive and optimized for all devices </div>
                     <div className="flex">
                     <div><img src={dummyAvatar} className="dummyAvatar"/>
-                    </div><div className="testimony-name">Arthur Broklyn<br/><span className="testimony-pos">Categories: Language</span></div> 
-                </div></div>
-        </SwiperSlide>
-        <SwiperSlide data-aos="fade-up">
-        <div className="testimonies">
-                <img src={testSymbol}/>
-                <div className="testimony-text">Lorem ipsum dolor sit amet consectetur. Montes a amet nunc ligula etiam nec placerat. 
-                    Leo eu tellus risus amet at et sit sapien. Risus augue tristique in in id nec libero. Sem nulla.</div>
-                    <div className="flex">
-                    <div><img src={dummyAvatar} className="dummyAvatar"/>
-                    </div><div className="testimony-name">Arthur Broklyn<br/><span className="testimony-pos">Categories: Language</span></div> 
+                    </div><div className="testimony-name">Charisma Realestate<br/><span className="testimony-pos">CEO</span></div> 
                 </div></div>
         </SwiperSlide>
       </Swiper>
